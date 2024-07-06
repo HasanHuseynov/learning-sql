@@ -1,0 +1,9 @@
+http://localhost:8080/v1/users -> GET, POST
+http://localhost:8080/v1/users/{id} -> DELETE,PUT, GET 
+
+http://localhost:8080/v1/user?status=ACTIVE&name=Hasan ->GET
+
+http://localhost:8080/v1/request/{id}/comment ->GET,POST
+
+http://localhost:8080/v1/request/{id}/comment/{id} ->GET, PUT, DELETE
+http://localhost:8080/v1/request/{id}/comment?date='2024-12-23'->GET
